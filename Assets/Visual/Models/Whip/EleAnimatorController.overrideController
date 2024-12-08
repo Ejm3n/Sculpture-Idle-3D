@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EleAnimatorController
+  m_Controller: {fileID: 9100000, guid: 5d7ceec13d8ce344dbedd3e3f2377ac1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: f394afd33f21745448e3382c9cec71ed, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0d0a1c01ac19aa04d806f4ab49437d8d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d420655b112f56043b11837f8c7ab04f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e1f00ec0ecd49a146934ac338a7d1175, type: 2}

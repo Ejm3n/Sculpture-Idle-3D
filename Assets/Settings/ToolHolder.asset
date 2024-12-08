@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e743367d07c2984a9efcac188b76ca0, type: 3}
+  m_Name: ToolHolder
+  m_EditorClassIdentifier: 
+  tools:
+  - price: 0
+    prefab: {fileID: -1136298097972365212, guid: cb31d24517479db4fa81494da0baaabb,
+      type: 3}
+    ghost: {fileID: 0}
+    upgrade: {fileID: 11400000, guid: 2dfec91b84adf0f4f87defde1562ebe4, type: 2}
+  - price: 50
+    prefab: {fileID: 2657482157448523257, guid: 38ce1e87571ee874a90588a3bffce03f,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: e99df10fae7153c4890ed006c38b441d, type: 3}
+    upgrade: {fileID: 11400000, guid: 83579657375093447bf21607c56f95ed, type: 2}
+  - price: 1000
+    prefab: {fileID: 3780476954049100953, guid: 4c5a48e42ba13f44ba6301d9e11fd3d2,
+      type: 3}
+    ghost: {fileID: 705354793607684657, guid: db990aa6411aba548a04257a4d92045a, type: 3}
+    upgrade: {fileID: 11400000, guid: b9996bac1a6f8594eaf8c3bc773e4cd8, type: 2}
+  - price: 100000
+    prefab: {fileID: 2657482157448523257, guid: bac16e76c7939f14697232ad1e520393,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: f3bc3adfc0e9a5e49bc8f2f0a8c8181a, type: 3}
+    upgrade: {fileID: 11400000, guid: 80ee2becc5ed8a148804c212178d9dd5, type: 2}
+  - price: 10000000
+    prefab: {fileID: 2657482157448523257, guid: c5541a493e5fc5546978be4bb315ee03,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: cbbaf88323a6f2a4bbe86d69092ecf8a, type: 3}
+    upgrade: {fileID: 11400000, guid: 91be2d679a0cf894297d4db4bbf9911e, type: 2}
+  - price: 100000000
+    prefab: {fileID: 2657482157448523257, guid: 73259df7c060fbf41b749e41adb55fff,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: 1cbff18118b374a419c792435cc76157, type: 3}
+    upgrade: {fileID: 11400000, guid: 8fc56dd8e712d92449959c34d9f2d6f0, type: 2}
+  - price: 5000000000
+    prefab: {fileID: 2657482157448523257, guid: e194c919aab93d448b337fe65bca8d81,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: 997e7364ea6d808439832558f0aebce3, type: 3}
+    upgrade: {fileID: 11400000, guid: 21f3528867b9dc442b45c51899bf4b0d, type: 2}
+  - price: 100000000000
+    prefab: {fileID: 2657482157448523257, guid: a8ea10e14551a534d947a8c583372251,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: 933c19971010f504c94264a85abbae21, type: 3}
+    upgrade: {fileID: 11400000, guid: 0eb7c9ba2b4fe054c8eb1daa91af9aa0, type: 2}
+  - price: 1000000000000
+    prefab: {fileID: 2657482157448523257, guid: 726b4a701bd913d408379f4b972b0293,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: c82565a4c9f3c344f9753c937f34ca37, type: 3}
+    upgrade: {fileID: 11400000, guid: 15e1eeb160a6c664ba204f0bdd5adb10, type: 2}
+  - price: 10000000000000
+    prefab: {fileID: 2657482157448523257, guid: 726b4a701bd913d408379f4b972b0293,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: c82565a4c9f3c344f9753c937f34ca37, type: 3}
+    upgrade: {fileID: 11400000, guid: e53278cf4c96e374a91146840664c8ca, type: 2}
+  - price: 100000000000000
+    prefab: {fileID: 2657482157448523257, guid: 726b4a701bd913d408379f4b972b0293,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: c82565a4c9f3c344f9753c937f34ca37, type: 3}
+    upgrade: {fileID: 11400000, guid: f68bf2b69f3f1404dbb9d4cf22ac9ace, type: 2}
+  - price: 1000000000000000
+    prefab: {fileID: 2657482157448523257, guid: 726b4a701bd913d408379f4b972b0293,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: c82565a4c9f3c344f9753c937f34ca37, type: 3}
+    upgrade: {fileID: 11400000, guid: 90e9217d202e06740a3f07d476e2ded7, type: 2}
+  - price: 10000000000000000
+    prefab: {fileID: 2657482157448523257, guid: 726b4a701bd913d408379f4b972b0293,
+      type: 3}
+    ghost: {fileID: 4853810193040315837, guid: c82565a4c9f3c344f9753c937f34ca37, type: 3}
+    upgrade: {fileID: 11400000, guid: d749b3066cdcee5438e00cd4b84fbb49, type: 2}

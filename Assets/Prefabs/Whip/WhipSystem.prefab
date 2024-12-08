@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1803773358693549449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5887915678808547367}
+  - component: {fileID: 2150390103659897881}
+  m_Layer: 0
+  m_Name: WhipSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5887915678808547367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803773358693549449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2150390103659897881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803773358693549449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 465db034e689dc845a32ef2bc6458bbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whipVariants:
+  - {fileID: 3620065482546079638, guid: 3bb674280c161054199b84a759f768bf, type: 3}
+  - {fileID: 6852144713466061022, guid: b30c84a818736564ebdc8865bc3471b5, type: 3}
+  effects:
+  - {fileID: 5823633033147485644, guid: 93a7485b7f1564c4aae6a739c3edc50e, type: 3}
+  - {fileID: -6957663940375712358, guid: 2cd7465c33ca87740aa5968317dbac95, type: 3}
+  - {fileID: -1514026991275812933, guid: 22639b6f8f7b8c943bca8000475a5f8d, type: 3}
+  - {fileID: 569804619990830828, guid: 216bd2f449e41914eaf44efe96731ff0, type: 3}
+  punch: {fileID: 1928316446139864502, guid: 71b02155078e4bf4e962f302d3675af2, type: 3}

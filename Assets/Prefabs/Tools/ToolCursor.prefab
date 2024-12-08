@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3861851257737612942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2491237478283395093}
+  - component: {fileID: -1136298097972365212}
+  - component: {fileID: 953154901647629159}
+  - component: {fileID: 5672970418816757821}
+  m_Layer: 0
+  m_Name: ToolCursor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2491237478283395093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3861851257737612942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1136298097972365212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3861851257737612942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5706d75a6ddb02c49af4e75166dd616a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  property: {fileID: 953154901647629159}
+  extents: {x: 0, y: 0, z: 0}
+  center: {x: 0, y: 0, z: 0}
+  input: 10
+--- !u!114 &953154901647629159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3861851257737612942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0364ceb9a6db93f428b052e2e87ffbef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5672970418816757821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3861851257737612942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68d8a3952935da4ab18ef50422262c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tool: {fileID: -1136298097972365212}
+  dynamic: {fileID: 1928316446139864502, guid: 89da891376ab66b4bab3fe60e1923116, type: 3}
+  icome: {fileID: 6656849854746495195, guid: 79411b5de59852647a50a00c83ea73a9, type: 3}
+  sound: ImpactClick

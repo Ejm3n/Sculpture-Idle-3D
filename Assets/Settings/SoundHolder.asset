@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a996c492705604889e78d95815b589, type: 3}
+  m_Name: SoundHolder
+  m_EditorClassIdentifier: 
+  soundPacks:
+  - key: Music
+    sounds:
+    - clip: {fileID: 8300000, guid: c4b6fda45fc8fcd469126b0e81a95484, type: 3}
+      volume: 0.15
+  - key: UIClick
+    sounds:
+    - clip: {fileID: 8300000, guid: fbd14936f25ce6943ac4c9f88e66f578, type: 3}
+      volume: 0.5
+  - key: UIBuy
+    sounds:
+    - clip: {fileID: 8300000, guid: 7f61fb65036706a4b9f03ff05d0888bc, type: 3}
+      volume: 0.35
+  - key: UIUpgrade
+    sounds:
+    - clip: {fileID: 8300000, guid: 93bd3391b4dcd8c49ba0484993da7eca, type: 3}
+      volume: 0.2
+  - key: Win
+    sounds:
+    - clip: {fileID: 8300000, guid: e75156582faaf2342947abae73ed50d9, type: 3}
+      volume: 0.5
+  - key: ImpactSmall
+    sounds:
+    - clip: {fileID: 8300000, guid: d8a5ae230e6dbd74f868928c2a40d60a, type: 3}
+      volume: 1
+    - clip: {fileID: 8300000, guid: 34edd68c0489abc4981169bf4306dabe, type: 3}
+      volume: 0.6
+    - clip: {fileID: 8300000, guid: 113bbde6374e0724893c74a380703073, type: 3}
+      volume: 1
+    - clip: {fileID: 8300000, guid: c17f979d0aed41c449702fe24ef6bf18, type: 3}
+      volume: 1
+    - clip: {fileID: 8300000, guid: dcf59466e8fec02438714dfd51dab9cd, type: 3}
+      volume: 1
+  - key: Impact
+    sounds:
+    - clip: {fileID: 8300000, guid: abf4b0fd26e4bed48a52019dc6f23325, type: 3}
+      volume: 0.5
+    - clip: {fileID: 8300000, guid: 90097ed0ba2970d47a4ccd6600760bf0, type: 3}
+      volume: 0.5
+    - clip: {fileID: 8300000, guid: acd529262a7bb464291e992916bdb675, type: 3}
+      volume: 0.5
+    - clip: {fileID: 8300000, guid: bb6ab3f45a260884e8e9fad3b5ed2fa9, type: 3}
+      volume: 0.5
+    - clip: {fileID: 8300000, guid: bb6ab3f45a260884e8e9fad3b5ed2fa9, type: 3}
+      volume: 0.5
+  - key: ImpactClick
+    sounds:
+    - clip: {fileID: 8300000, guid: 6396c89929d457440b310d41ccb7344e, type: 3}
+      volume: 0.5
+    - clip: {fileID: 8300000, guid: a0f2b406a06362d49bcfd7532f3ca636, type: 3}
+      volume: 0.5
+  - key: Whip
+    sounds:
+    - clip: {fileID: 8300000, guid: bfbc11f599d95ca4fa065d6f574f3dc7, type: 3}
+      volume: 0.5
+  - key: WhipEl
+    sounds:
+    - clip: {fileID: 8300000, guid: c06f16b7fbc6bb9499cc1bb5cd84a40f, type: 3}
+      volume: 1
+  - key: Scream
+    sounds:
+    - clip: {fileID: 8300000, guid: e5eec6b9020eff14bac10a2362fa0b49, type: 3}
+      volume: 0.1
+    - clip: {fileID: 8300000, guid: 0f5f780a37c7f3949b58342f61c297ae, type: 3}
+      volume: 0.1
+    - clip: {fileID: 8300000, guid: 38848d74478676e4f82d86994a8d6d38, type: 3}
+      volume: 0.1
+  - key: ScreamBig
+    sounds:
+    - clip: {fileID: 8300000, guid: 2afc6d623a4586d45a9e7638f9c0c789, type: 3}
+      volume: 0.1
+    - clip: {fileID: 8300000, guid: 16492dbc7218f3748a91dc8831745e96, type: 3}
+      volume: 0.1
+    - clip: {fileID: 8300000, guid: 411d6e1b79cca1f4d868180af950cec4, type: 3}
+      volume: 0.1
+  - key: ScreamDino
+    sounds:
+    - clip: {fileID: 8300000, guid: 64cea2e750cb85e4f9f9312de9d8be70, type: 3}
+      volume: 0.1
