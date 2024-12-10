@@ -52,5 +52,5 @@
         "Temp/": true
     },
     "dotnet.preferCSharpExtension": true,
-    "dotnet.defaultSolution": "Sculpture-Idle-3D.sln"
+    "dotnet.defaultSolution": "sculpture working.sln"
 }
