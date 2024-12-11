@@ -732,11 +732,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pillarPrefab:
-    resourcePath: Prefabs/Pillars/PillarTest
+    resourcePath: 
   sculpturePrefab: {fileID: 679532709826005237, guid: d22cb29a5d01d8d4b860939f946583f5,
     type: 3}
   cameras: {fileID: 6371205037536546474}
   toolController: {fileID: 1734759561889996889}
+  sculpture: {fileID: 0}
+  startCameraPos: {x: 0, y: 0, z: 0}
 --- !u!114 &1734759561889996889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -749,8 +751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28324c734d3d13f4192f40d4f37de144, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segments: 10
-  radius: 2
+  grid: {fileID: 0}
   startTool: {fileID: 3185291865041908616}
 --- !u!114 &6806918568838542035
 MonoBehaviour:
